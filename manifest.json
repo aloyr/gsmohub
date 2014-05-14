@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "GSMO Hub",
+  "description": "Add links to GSMO tickets from within GitHub",
+  "version": "1.0",
+
+  "permissions": [
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["gsmohub.js"]
+    }
+  ]
+}
