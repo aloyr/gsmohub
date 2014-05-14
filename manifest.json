@@ -4,6 +4,7 @@
   "name": "GSMO Hub",
   "description": "Add links to GSMO tickets from within GitHub",
   "version": "1.0",
+  "author": "Peter Carrero",
 
   "permissions": [
     "https://github.com/*"
@@ -11,7 +12,10 @@
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
-      "js": ["gsmohub.js"]
+      "js": ["jquery.js", "gsmohub.js"]
     }
-  ]
+  ],
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png"}
 }
