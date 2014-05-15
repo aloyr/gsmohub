@@ -1,5 +1,5 @@
 jQuery.each(
-  $('blockquote:contains("GSMO#")'),
+  $('blockquote:contains("GSMO#"), blockquote:contains("gsmo#"), p:contains("GSMO#"), p:contains("gsmo#")'),
   function(i,val) {
     $(val).html($(val).html().replace(
       /(gsmo#)([\d]*)/i,
