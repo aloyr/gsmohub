@@ -7,12 +7,12 @@
   "author": "Peter Carrero",
 
   "permissions": [
-    "https://github.com/*",
+    "https://github.com/*/dashboard",
     "http://gsmo.hidglobal.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://github.com/*", "http://gsmo.hidglobal.com/*"],
+      "matches": ["https://github.com/*/dashboard", "http://gsmo.hidglobal.com/*"],
       "js": ["jquery.js", "gsmohub.js"]
     }
   ],
