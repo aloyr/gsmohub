@@ -14,6 +14,10 @@
     {
       "matches": ["https://github.com/*/dashboard", "http://gsmo.hidglobal.com/*"],
       "js": ["jquery.js", "gsmohub.js"]
+    },
+    {
+      "matches": ["http://gsmo.hidglobal.com/global-services/node/*"],
+      "js": ["jquery.js", "gsmocomplete.js"]
     }
   ],
   "icons": { "16": "icon16.png",
